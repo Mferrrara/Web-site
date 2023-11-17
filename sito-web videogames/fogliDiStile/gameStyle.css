@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;500&display=swap');
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    background-image: url(../images/sfondoGame.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.gameContainer {
+    background-color: white;
+    max-width: 1200px;
+    margin: 40px auto;
+    border: solid black 1px;
+    border-radius: 10px;
+    height: auto;
+    background-color: goldenrod;
+}
+
+.game {
+    border: solid black 1px;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: black;
+}
+
+.tGame {
+    font-size: 50px;
+    text-align: center;
+    color: goldenrod;
+}
+
+.iGame {
+    display: flex;
+    height: 600px;
+    width: 500px;
+    border-radius: 10px;
+    margin-left: 340px;
+}
+
+.dGame {
+    text-align: justify;
+}
+
+.game p {
+    padding: 20px;
+    color: white;
+}
+
+.game p span {
+    color: darkred;
+    font-size: 20px
+}
+
+.descrizione {
+    display: block;
+}
+
+.commenti {
+    margin: 10px;
+    border: solid black 1px;
+    border-radius: 5px;
+    background-color: #1b1e1f;
+}
+
+#xCommento {
+    font-size: 30px;
+    padding: 20px;
+    text-align: center;
+    color: darkred;
+}
+
+.nCommento {
+    padding: 20px;
+}
+
+.commentatore {
+    display: block;
+    color: black;
+    background-color: white;
+    border: solid black 1px;
+    width: fit-content;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.commento {
+    display: block;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;
+    width: fit-content;
+    margin-left: 40px;
+}
+
+.formCommento {
+    padding: 20px;
+}
+
+#commento {
+    padding: 20px;
+    border-radius: 10px;
+    border: solid black 2px;
+}
+
+.cancella {
+    display: block;
+    width: fit-content;
+    text-align: right;
+    text-decoration: none;
+    padding: 6px;
+    border-radius: 10px;
+    margin-left: 91%;
+    margin-bottom: 15px;
+    color: black;
+    background-color: goldenrod;
+}
+
+.cancella:hover {
+    color: red;
+}
+
+#pubblicaCommento {
+    display: block;
+    margin-left: 470px;
+    margin-top: 30px;
+    background-color: goldenrod;
+    padding: 20px;
+    border-radius: 10px;
+    border: solid black 2px;
+}
+
+#pubblicaCommento:hover {
+    color: green;
+}
+
+.riservata {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+}
+
+.riservataMessage {
+    text-align: center;
+    color: black;
+    font-size: 40px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.riservataMessage a {
+    text-decoration: none;
+    color: gray;
+}
+
+.riservataMessage a:hover {
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}

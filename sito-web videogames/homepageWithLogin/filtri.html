@@ -1,0 +1,57 @@
+
+<script type="text/javascript" src="filtri.js"></script>
+
+    <form name="filtri" id="filtri" method="post" action="homepageWL.php" autocomplete="off">
+
+        <p>
+            Filtra per:
+            <select name="selectFiltro" onchange="abilita(this)">
+                <option value="blank"> </option>
+                <option value="piattaforma"> Piattaforma </option>
+                <option value="categoria"> Categoria </option>
+                <option value="lingua"> Lingua </option>
+            </select>
+        </p>
+
+        <p>
+            <select name="piattaforma" hidden>
+                <option value="Pc"> Pc </option>
+                <option value="Ps5"> Ps5 </option>
+                <option value="Ps4"> Ps4 </option>
+                <option value="Xbox One"> Obox One </option>
+                <option value="Xbox X|S"> Xbox X|S </option>
+                <option value="Nintendo Switch"> Nintendo Switch </option>
+            </select>
+
+        </p>
+        <p>
+            <select name="categoria" hidden>
+                <option value="Azione"> Action RPG </option>
+                <option value="Avventura"> Avventura </option>
+                <option value="Sport"> Sport </option>
+                <option value="Horror"> Horror </option>
+                <option value="Picchiaduro"> Picchiaduro </option>
+                <option value="Platform"> Platform </option>
+                <option value="Strategia"> Strategia </option>
+            </select>
+        </p>
+        <p>
+            <select name="lingua" hidden>
+                <option value="Cinese"> Cinese </option>
+                <option value="Inglese"> Inglese </option>
+                <option value="Italiano"> Italiano </option>
+                <option value="Giapponese"> Giapponese </option>
+                <option value="Polacco"> Polacco </option>
+                <option value="Russo"> Russo </option>
+                <option value="Spagnolo"> Spagnolo </option>
+                <option value="Tedesco"> Tedesco </option>
+                <option value="Francese"> Francese </option>
+                <option value="Coreano"> Coreano </option>
+                <option value="Arabo"> Arabo </option>
+            </select>
+        </p>
+        <button type="submit" name="applicaFiltro" id="applicaFiltro" disabled>
+            <b> Filtra </b>
+        </button>
+        
+    </form>

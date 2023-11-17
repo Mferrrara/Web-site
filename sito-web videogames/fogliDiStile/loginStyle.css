@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.error {
+    color: red;
+    display: none;
+    font-size: smaller;
+}
+
+body {
+    background-image: url(../images/sfondoSignin.jpg);
+    background-repeat:no-repeat ;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    padding: 100px;
+}
+
+form {
+    max-width: 700px;
+    width: 300px;
+    background: lightgray;
+    padding: 25px 30px;
+    border-radius: 5px;
+}
+
+form .tipoInput{
+    display: flex;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+
+.signin{
+    color: black;
+    text-decoration: none;
+    padding:5px;
+    border: black solid 1px;
+    background-color: white ;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.subs{
+    padding: 5px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: large;
+    background-color:white ;
+    border: black solid 1px;
+    border-radius: 5px;
+}
